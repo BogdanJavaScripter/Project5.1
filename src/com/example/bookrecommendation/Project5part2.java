@@ -20,7 +20,7 @@ public class Project5part2 {
         }
 
         private static int getUserAge(Scanner keyboard) {
-            print("Please enter your age ");
+            print("Please enter your age: ");
             return keyboard.nextInt();
         }
 
@@ -32,7 +32,7 @@ public class Project5part2 {
                 print("Superstrings and the Search for the Theory of Everything 1st Edition.");
             } else if (age >= 14 && age <= 25) {
                 print("Book not found.");
-                print("Youre at university and you might not have much time to read Goodbye");
+                print("You're at university and you might not have much time to read Goodbye");
             } else if (age >= 26 && age <= 50) {
                 print("That will be such a nice lesson for you Atomic Habits.");
             } else {
